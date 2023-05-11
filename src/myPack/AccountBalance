@@ -1,0 +1,12 @@
+package MyPack;
+class AccountBalance {
+  public static void main (String args[]) {
+    Balance current[] = new Balance[3];
+    current[0] = new Balance("Fielding Key", 123.23f);
+    current[1] = new Balance("Tell Will", 157.02f);
+    current[2] = new Balance("Tom Jackson", -12.33f);
+    for (int i = 0; i < 3; i++){
+      current[i].show();
+      }
+  }
+}
